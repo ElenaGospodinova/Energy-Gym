@@ -77,6 +77,18 @@ $(document).ready(function() {
 });
 
 
+//about page
+
+
+
+$(document).ready(function() {
+  $('.faq-item .question').click(function() {
+    $(this).siblings('.answer').slideToggle();
+  });
+});
+
+
+
 // $(document).ready(function() {
 //     var clickhamb = 0;
   
