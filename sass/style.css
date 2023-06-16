@@ -1,3 +1,6 @@
+/* @import url("https://fonts.googleapis.com/css?family=Cookie");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"); */
+
 /*HEADER */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -6,10 +9,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     min-width: 250px;
-    overflow-x: hidden;
-    
-    
-    
+    overflow-x: hidden;   
 }
 
 @media screen and (min-width: 1500px) {
@@ -128,64 +128,6 @@ header{
     text-align: left;
   }
 }
-/*
-.topnav .navlist{
-  display: flex;
-  justify-content: flex-end;
-}
-
-.navlist{
-    transform: translateX(0px);
-    transition: transform 0.5s;
-    
-}
-
-.navlist a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  
-}
-
-.navlist a:hover:not(:first-child) {
-    background-color: #ddd;
-    color: rgb(36, 35, 35);
-}
-
-.active {
-    background-color: #b78c33;
-    color: white;
-}
-
-.topnav a.icon {
-    position: absolute;
-    right: 0;
-    transition: transform 3s;
-    top: 0px;
-} 
-
-.logo{
-    height: 64px;
-    float: left;
-    padding: 9px;
-    padding-left: 3%;
-    padding-right: 3%;
-    margin-top: -9px;
-}
-
-.cursor0{
-    cursor:pointer;
-}
-
-.navlist a:not(.icon){
-    display: block;
-    /* transition: transform 2s, opacity 1s, visibility 1s; */
-    /* transition: transform 0.5s, opacity 0.5s, visibility 0.5s;
-} */
 
 @media screen and (max-width: 360px) {
   .navlist {
@@ -217,41 +159,6 @@ header{
     text-align: left;
     
   }
-} */
-
-/* @media screen and (max-width: 600px) {
-
-    .navlist a:not(.icon) {
-        transform: translateX(500px);
-        opacity: 0;
-        visibility: hidden;
-    }
-
-    .topnav a.icon {
-        visibility: visible;
-        float: right;
-        transform: translateX(-47px);
-    }
-
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-        position: absolute;
-        top: 0;
-        transform: translateX(-47px);
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-        transform: translateX(0px);
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .topnav.responsive .navlist{
-        float: none;
-    }
-    
 } */
 
 /* hero section style*/
@@ -397,54 +304,6 @@ header{
   }
 }
 
-
-/* .title {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	min-height: 20vh;
-	text-align: center;
-  font-size: 500%;
-  font-family: Roboto;
-  transform: scale(1.50);
-  font-weight: 300;
-	color:rgb(255, 255, 255);
-	text-shadow: 2px 2px 10px #0e0e0e;
-  padding: 10%;
-  margin-top: -240px;
-  
-} 
-
-.underline {
-  max-width: 200px;
-  border-bottom: 2px solid rgb(232, 135, 7);
-  margin: 0 auto;
-}
-
-.btn-header {
-	display: flex;
-	flex-basis: 50%;
-  background-color: transparent;
-  color: rgb(255, 255, 255);
-  border: 2px solid rgb(234, 147, 8);
-  padding: 16px 32px;
-  text-align: center;
-  margin-top: 540px;
-  margin-bottom: 440px;
-  left: 380px;
-  text-decoration: none;
-  font-size: 150%;
-	font-weight: 700;
-	color: rgb(255, 255, 255);
-	text-transform: uppercase;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  /* transition-duration: 0.4s;
-  cursor: pointer;
-  align-items: center;
-  cursor: pointer;
-  
-} */
-
 .btn-header:hover {
 	background-color: #f63803;
 	color: rgba(13, 9, 236, 0.7);
@@ -471,106 +330,6 @@ a {
  font-weight: bold;
 }
 /* Boxes Style - Home Page   */
-/* 
-.grid-container {
-  background-image: url("/img/background.jpg");
-  display: grid;
-  grid-auto-flow: column;
-  width: 80rem;
-  margin: 10px;
-  height: 120px;
-  text-align: center;
-  box-shadow: 10px 10px 5px  rgb(128, 127, 126);
-  border-radius: 9%;
-}
-.box1{
-  background-color: #002147;
-  box-shadow: 10px 14px 5px  rgb(128, 127, 126);
-  color: #f3dada;
-  padding: 40px;
-  margin: 30px;
-  margin-top: 540px;
-  width: 240px;
-  height: 380px;
-  border-radius: 3px;
-  margin-left: 150px;
-}
-
-.box2 {
-  background-color: rgb(237, 169, 10);
-  color: #191717;
-  padding: 40px;
-  margin-left: 500px;
-  margin-top: -405px;
-  border-radius: 3px;
-  box-shadow: 10px 14px 5px  rgb(128, 127, 126);
-  width: 240px;
-  height: 380px;
-  
-}
-.box3{
-  background-color: #999;
-  color: #000000;
-  padding: 38px;
-  margin-left: 850px;
-  margin-top: -380px;
-  border-radius: 3px;
-  box-shadow: 10px 10px 5px  rgb(128, 127, 126);
-  width: 240px;
-  height: 386px;
-  
-}
-.box4{
-  background-image: url("/img/new_classes_spinning.jpg");
-  width: 450px;
-  height: 390px;
-  border-radius: 4px;
-  box-shadow: 10px 10px 5px  rgb(128, 127, 126);
-  padding: 6px;
-  text-align: center;
-  font-size: larger;
-  color: #0b0b59;
-  margin-top: -380px;
-  margin-left: 1160px;
-  font-weight: bold;
-  transform-style: preserve-3d;
-  transition: ease 1s;
-  
-  
-}
-.text-box4{
-  margin-top: 10px;
-  background-color: #ffffff;
-  border-radius: 4px;
-  opacity: 0.8;
-}
-.text-box4:hover{
-  color: rgb(134, 20, 134);
-
-}
-.box4:hover{
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-        
-      
-        
-}
-@media screen and (max-width:600px){
-  .grid-container{
-    flex-wrap:wrap;
-  }
-}
-
-.clubMessage {
-   display: flexbox;
-   padding: 60px;
-   width: 620px;
-  margin-top: -430px;
-  font-size: medium;
-  color:#440347;
-} */
-
 
 .grid {
   margin-top: 220px;
@@ -647,17 +406,7 @@ a {
   }
 }
 
-
-
-
-
-
-
-
-
-
 /*  Home Page Buttons - Boxes   */
-
 
 .button-boxes {
   margin: 10px;
@@ -677,9 +426,6 @@ a {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  
-  
-  
 }
 
 .button-boxes:hover {
@@ -721,7 +467,7 @@ a {
   padding:2rem;
   display:grid;
   place-items:center;
-  background-color:#222;
+  background: #002147;
   
 }
 .container{
@@ -1063,97 +809,6 @@ a {
   color: wheat;
 }
 
-
-/* .span-or {
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: -20px;
-  margin-left: -25px;
-  background-color: #fff;
-  width: 50px;
-  text-align: center;
-}
-.hr-or {
-  background-color: #cdcdcd;
-  height: 1px;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-}
-footer.nb-footer {
-background: #002147;
-border-top: 4px solid #b78c33; 
-}
-footer.nb-footer .about {
-margin: 0 auto;
-margin-top: 30px;
-max-width: 1170px;
-text-align: center; 
-}
-footer.nb-footer .about p {
-font-size: 13px;
-color: #999;
-margin-top: 30px; 
-}
-footer.nb-footer .about .social-media {
-margin-top: 17px;
-padding-top: 3px;
- }
-footer.nb-footer .about .social-media ul li a {
-display: inline-block;
-width: 45px;
-height: 45px;
-line-height: 45px;
-border-radius: 50%;
-font-size: 16px;
-color: #b78c33;
-border: 1px solid rgba(255, 255, 255, 0.3);
-
- }
-footer.nb-footer .about .social-media ul li a:hover {
-background: #b78c33;
-color: #fff;
-border-color: #b78c33; 
-
-}
-footer.nb-footer .footer-info-single {
-margin-top: 30px;
- }
-footer.nb-footer .footer-info-single .title {
-color: #aaa;
-text-transform: uppercase;
-font-size: 16px;
-padding-right: 5px;
-
-
- }
-footer.nb-footer .footer-info-single ul li a {
-display: block;
-color: #aaa;
-padding: 2px 0; 
-
-}
-footer.nb-footer .footer-info-single ul li a:hover {
-color: #b78c33; 
-}
-footer.nb-footer .footer-info-single p {
-font-size: 13px;
-line-height: 20px;
-color: #aaa;
- }
-footer.nb-footer .copyright {
-margin-top: 15px;
-background: #111;
-padding: 7px 0;
-color: #999; 
-}
-footer.nb-footer .copyright p {
-margin: 0;
-padding: 0; 
-} */
-
-
-
 @media screen and (max-width: 768px) {
   .nb-footer .row {
     flex-direction: column;
@@ -1183,8 +838,6 @@ padding: 0;
   }
 }
 
-
-/*****  The GYM Page   *****/
 /*****  The GYM Page   *****/
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
@@ -1304,7 +957,7 @@ color: #000000;
 *, *:before, *:after {box-sizing: inherit;}
 html{
   box-sizing: border-box;
-  background: #023e83;
+  background: #002147;
   font-size: 1rem;
   color: #e6eff0;
   font-family: Roboto Slab;
@@ -1437,7 +1090,101 @@ a {
   /* About Page */
 .about-content h2,
 .faqs h2,
-.contact-us h2 {
+.contact-us h2, h3 {
   text-align: center;
   justify-content: center;
+  padding: 2px;
 }
+.asked{
+  margin-top: 40px;
+}
+
+.faq-item .question {
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 0;
+  
+}
+
+.question:hover {
+  color:#b78c33;
+}
+
+.content {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  padding: 0 60px 0 0;
+}
+
+.centerplease {
+  margin: 0 auto;
+  width: 100vw;
+  font-size: 150%;
+  text-align: center;
+  margin-top: 3em;
+  padding: 5px;
+}
+
+.question {
+  position: relative;
+  background: #0C1323;
+  margin: 0;
+  padding: 10px 10px 10px 50px;
+  display: block;
+  width:100%;
+  cursor: pointer;
+  color: white;
+ 
+}
+
+.answers {
+  background: #999;
+  padding: 0px 15px;
+  margin: 5px 0;
+  height: 0;
+  overflow: hidden;
+  z-index: 15;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .7s ease;
+  -moz-transition: .7s ease;
+  -o-transition: .7s ease;
+  transition: .7s ease;
+}
+
+.questions:checked ~ .answers{
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+}
+
+.plus {
+  position: absolute;
+  color: white;
+  margin-left: 10px;
+  z-index: 15;
+  font-size: 2em;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.questions:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.questions {
+  display: none;
+}
+
