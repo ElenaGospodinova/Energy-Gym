@@ -1,0 +1,157 @@
+/* FOOTER */
+.footer-info-single {
+    margin-top: 160px;
+  }
+  
+  .footer-info-single .title {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 122px;
+  }
+  
+  .footer-info-single ul li a {
+    display: block;
+    color: #aaa;
+    padding: 2px 0;
+    top: -92px;
+    margin-left: 52px;
+  }
+  
+  .footer-info-single ul li a:hover {
+    color: #b78c33;
+    text-decoration: underline;
+  }
+  
+  .footer-info-single p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #aaa;
+  }
+  
+  .nb-footer {
+    background: #002147;
+    border-top: 4px solid #b78c33;
+    padding-bottom: 30px;
+  }
+  
+  .about {
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 1170px;
+    text-align: center;
+  }
+  
+  .about p {
+    font-size: 13px;
+    color: #999;
+    margin-top: 30px;
+  }
+  
+  .social-media {
+    margin-top: 17px;
+    padding-top: 3px;
+    cursor: pointer;
+  }
+  
+  .social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #b78c33;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .social-media ul li a:hover {
+    background: #b78c33;
+    color: #fff;
+    border-color: #b78c33;
+  }
+  
+  .social-media ul li a:hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+  
+  .social-media ul li a i {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .social-media ul li a:hover i {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .social-media ul li a:hover::before {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .social-media ul li a i.fa {
+    line-height: 43px;
+  }
+  
+  .social-media ul li a i.fab {
+    line-height: 41px;
+  }
+  
+  .social-media ul li a i.fab:before {
+    content: attr(class);
+  }
+  
+  .social-media ul li a i.fab.fa-instagram:before {
+    content: "";
+  }
+  
+  .social-media ul li a i.fab.fa-500px:before {
+    content: "";
+  }
+  
+  .footer-info-single ul li a:before {
+    content: "";
+  }
+  .copyright{
+    color: wheat;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nb-footer .row {
+      flex-direction: column;
+    }
+  
+    .nb-footer .col-md-3 {
+      margin-bottom: 30px;
+    }
+  
+    .nb-footer .about {
+      margin-top: 0;
+    }
+  
+    .nb-footer .about p {
+      margin-top: 20px;
+    }
+  
+    .nb-footer .footer-info-single {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .nb-footer .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  
+  

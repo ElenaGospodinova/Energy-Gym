@@ -1,0 +1,54 @@
+/***** Yoga & Pilates  Page   *****/
+
+#thehero-yoga-pilates{
+    width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        background-image: linear-gradient(rgba(132, 115, 115, 0.5),rgba(120, 82, 82, 0.5)),url("/img/yoga_event.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .the-inner-yoga-pilates .row_points_yoga p:before{
+      content: url(https://chrislanejones.com/wp-content/uploads/2018/10/littlesquarebullet.png);
+      padding: 0 1rem 0 0;
+    }
+    
+    @media (max-width: 700px) {
+      .the-inner, the-inner-yoga-pilates, h1, points {   
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+  
+      }
+    }
+    
+    @media only screen and (max-width: 300px)
+  {
+    .container {
+       float: none;
+       width: 100%;
+       height: 100%;
+    }
+    h1
+  {
+    font-size: 11px;
+  }
+    p
+  {
+    font-size: 10px;
+  }
+   .points
+  {
+    font-size: 9px;
+  }
+   section {
+     position:static;
+   }
+  
+  }
